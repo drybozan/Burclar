@@ -1,0 +1,293 @@
+    #all {
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        background-image: url(../resimler/arkaplan.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        opacity: 0.8;
+        z-index: 100;
+    }
+    
+    #ustcontainer {
+        margin: auto;
+        margin-top: 40px;
+        width: 880px;
+        height: auto;
+        padding-left: 2px;
+        padding-right: 2px;
+        top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        overflow: visible;
+        box-shadow: 3px 3px 3px 4px black;
+    }
+    
+    .logo {
+        float: left;
+        background-image: url("../resimler/logo.jpg");
+        background-color: white;
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .ustyazi1 {
+        float: left;
+        width: 400px;
+        text-align: center;
+        background-color: bisque;
+        color: black;
+        margin-top: 30px;
+        letter-spacing: 4px;
+        font-size: 25px;
+        border-radius: 20px;
+        font-family: Trebuchet MS;
+        box-shadow: 2px 5px 5px 2px black;
+        transform: rotate(0 deg);
+        transform: skewY(0 deg);
+        text-shadow: 0 0 3px red, 0 0 5px red;
+    }
+    
+    .ustyazi2 {
+        float: left;
+        width: 400px;
+        text-align: center;
+        background-color: bisque;
+        color: black;
+        margin-top: 30px;
+        letter-spacing: 4px;
+        font-size: 25px;
+        border-radius: 20px;
+        font-family: Trebuchet MS;
+        box-shadow: 2px 5px 5px 2px black;
+        transform: rotate(0 deg);
+        transform: skewY(0 deg);
+        text-shadow: 0 0 3px red, 0 0 5px red;
+    }
+    
+    #altmenu {
+        margin: auto;
+        margin-top: 40px;
+        width: 880px;
+        top: 120px;
+        color: white;
+    }
+    
+    #ustmenu {
+        width: 648px;
+        height: 48px;
+        float: left;
+        background-color: #FAEBD7;
+        border-radius: 10px;
+    }
+    
+    #ustmenu ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        z-index: 99;
+    }
+    
+    #ustmenu ul li {
+        float: left;
+        position: relative;
+    }
+    
+    #ustmenu ul li a {
+        text-align: center;
+        display: block;
+        width: 158.5px;
+        height: 30px;
+        padding: 1px;
+        padding-top: 12px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: bisque;
+        transition: background-color 1s;
+        background-color: black;
+        border-right: 1px solid white;
+        border-bottom: 0.5px solid white;
+        border-top: 0.5px solid white;
+        transition: border-bottom 1s;
+        text-shadow: 0 0 10px black, 0 0 5px white;
+    }
+    
+    #ustmenu ul li a:hover {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+    
+    #ustmenu ul li ul {
+        display: none;
+        position: absolute;
+        top: 48px;
+        left: 0px;
+    }
+    
+    #ustmenu ul li:hover ul {
+        display: block;
+    }
+    
+    #ustmenu ul li {
+        position: relative;
+    }
+    
+    #sosyal {
+        width: 200px;
+        padding: 10px;
+        height: 30px;
+        float: left;
+        border-radius: 30px;
+        color: white;
+        transition: box-shadow 1s;
+        box-shadow: 1px 1px 10px 2px black;
+        margin-left: 4px;
+    }
+    
+    #sosyal img {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: -5px;
+        background-size: cover;
+        border-radius: 50%;
+        position: relative;
+        transition: box-shadow 1s;
+        box-shadow: 1px 1px 10px 2px black;
+    }
+    
+    #orta {
+        margin: auto;
+        width: 880px;
+        height: 100px;
+        margin-top: 20px;
+        background-position: absolute;
+    }
+    
+    #ortalansol {
+        float: left;
+        width: 120px;
+        border-radius: 10px;
+        transition: box-shadow 1s;
+        box-shadow: 1px 1px 10px 2px white;
+        position: absolute;
+    }
+    
+    #ortalansol ul {
+        margin: -1px;
+        padding: 0px;
+        list-style: none;
+    }
+    
+    #ortalansol ul li a {
+        color: black;
+        display: block;
+        width: 110px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        font: Arial;
+        font-weight: bold;
+        font-size: 15px;
+        padding-top: 4px;
+        transition: background-color 1s;
+    }
+    
+    #ortalansol ul li a:hover {
+        color: rgb(153, 217, 228);
+        background-color: black;
+        border-radius: 7px;
+    }
+    
+    #ortalansol ul li ul {
+        background: bisque;
+        display: none;
+        position: absolute;
+        left: 120px;
+        top: 0px;
+        border-radius: 7px;
+        transition: background-color 1s;
+    }
+    
+    #ortalansol ul li ul a:hover {
+        color: white;
+        background-color: black;
+    }
+    
+    #ortalansol ul li:hover ul {
+        display: block;
+    }
+    
+    #ortalansol ul li {
+        position: relative;
+    }
+    
+    #ortalansol ul li a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        border-radius: 7px;
+        border-bottom: 1px solid white;
+    }
+    
+    #ortalan {
+        float: left;
+        width: 600px;
+        height: 800px;
+        background-color: #7de7d6;
+        position: relative;
+        border-radius: 10px;
+        margin-left: 120px;
+        text-indent: 20px;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-top: 0px;
+        z-index: -100;
+    }
+    
+    #sağorta {
+        background-image: url("../resimler/burcfoto.jpg");
+        float: left;
+        margin-left: 45px;
+        height: 400px;
+        width: 100px;
+        border-radius: 110px;
+        background-size: cover;
+        position: relative;
+        transition: box-shadow 1s;
+        box-shadow: 1px 1px 10px 2px bisque;
+    }
+    
+    #footer {
+        float: left;
+        width: 780px;
+        border-radius: 10px;
+        background-color: #253c44;
+        height: 50px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    #footer img {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 5px;
+        background-size: cover;
+        border-radius: 50%;
+        position: relative;
+    }
